@@ -1,6 +1,6 @@
 var NodeHelper = require("node_helper");
 var pythonStarted = false;
-module.exports = node_helper.create({
+module.exports = NodeHelper.create({
 	start: function() {
 		console.log("Started node_helper for MMM-DailyReadings.");
 	},
