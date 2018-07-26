@@ -1,3 +1,4 @@
+var NodeHelper = require("node_helper");
 var pythonStarted = false;
 module.exports = node_helper.create({
 	start: function() {
